@@ -34,7 +34,8 @@
     "custom/media": {
         "format": "{}",
         "interval": 1,
-        "exec": "$HOME/.config/waybar/get_media.sh"
+        "exec": "$HOME/.config/waybar/get_media.sh",
+        "max-length": 65
     },
     "custom/keyboard": {
         "format": " {}",
@@ -63,6 +64,6 @@
     },
     
     "custom/textbox": {
-        "format": "ЦЕЛЬ НА ДО УНИВЕРА ЗАДРОЧИТЬ ВСЕ КУРСЫ ВДОЛЬ И ПОПЕРЕК:"
+        "format": "БУЧИЛИСТЫЙ ОВРАГ:"
     }
 }
