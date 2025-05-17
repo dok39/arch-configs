@@ -6,28 +6,11 @@
   window#waybar {
       background: rgba(0,0,0,0);
   }
-  
-  #battery {
-    margin: 3px 3px 3px 0px;
-    padding: 4px 8px 4px 8px;
-    background: #1d1f21;
-    color: #c5c8c6;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius:10px;
-  }
-  
-  #clock {
-    margin: 3px 0px 3px 0px;
-    padding: 4px 8px 4px 8px;
-    color: #FFF;
-    background: #1d1f21;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    color: #c5c8c6;
-  }
+
+  /* LEFT */
 
   #custom-media {
-    margin: 3px 0px 3px 3px;
+    margin: 3px 0px 3px 20px;
     padding: 4px 8px 4px 8px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -44,12 +27,7 @@
     color: #c5c8c6;
   }
   
-  #network {
-    background: #1d1f21;
-    color: #c5c8c6;
-    margin: 3px 0px 3px 0px;
-    padding: 4px 8px 4px 8px;
-  }
+  /* CENTER */
 
   #custom-textbox {
     background: #1d1f21;
@@ -59,7 +37,25 @@
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
   }
+
+  #clock {
+    margin: 3px 0px 3px 0px;
+    padding: 4px 8px 4px 8px;
+    color: #FFF;
+    background: #1d1f21;
+
+    /*
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    */
+    
+    border-radius: 10px;
+
+    color: #c5c8c6;
+  }
   
+  /* RIGHT */
+
   #custom-keyboard {
     background: #1d1f21;
     color: #c5c8c6;
@@ -67,4 +63,20 @@
     margin: 3px 0px 3px 3px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+  }
+
+  #network {
+    background: #1d1f21;
+    color: #c5c8c6;
+    margin: 3px 0px 3px 0px;
+    padding: 4px 8px 4px 8px;
+  }
+
+  #battery {
+    margin: 3px 20px 3px 0px;
+    padding: 4px 8px 4px 8px;
+    background: #1d1f21;
+    color: #c5c8c6;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px;
   }

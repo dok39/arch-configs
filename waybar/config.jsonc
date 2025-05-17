@@ -6,13 +6,14 @@
     "modules-center": ["custom/textbox", "clock"],
     "modules-right": ["custom/keyboard", "network", "battery"],
 
-    //LEFT
+    /* LEFT */
     "custom/media": {
         "format": "{}",
         "interval": 1,
         "exec": "/home/avhsm/.config/waybar/get_media.sh",
         "max-length": 65
     },
+    
     "pulseaudio": {
         "format": "{icon} {volume}%",
         "format-bluetooth": "{icon} {volume}%",
@@ -30,22 +31,27 @@
         "on-click": "pavucontrol"
     },
 
-    //CENTER
-    "custom/textbox": {
+    /* CENTER 
+    
+        "custom/textbox": {
         "format": "ы"
     },
+    
+    */
+
     "clock": {
         "format": " {:%H:%M}",
         "format-alt": "{:%a %b %d}",
         "tooltip": false
     },
 
-    //RIGHT
+    /* RIGHT */
     "custom/keyboard": {
         "format": " {}",
         "interval": 3,
         "exec": "/home/avhsm/.config/waybar/get_kbdlayout.sh"
     },
+
     "network": {
         "format": "{ifname}",
         "format-wifi": " {essid}",
@@ -54,12 +60,13 @@
         "tooltip-format-wifi": "{signalStrength}%",
         "max-length": 20
     },
+
     "battery": {
         "states": {
-            "good": 95,
-            "warning": 50,
-            "critical": 25
-        },
+        "good": 95,
+        "warning": 50,
+        "critical": 25
+    },
         "bat":"BAT1",
         "format": "{icon} {capacity}%",
         "format-charging": " {capacity}%",
