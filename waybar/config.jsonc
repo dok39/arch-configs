@@ -48,7 +48,7 @@
     /* RIGHT */
     "custom/keyboard": {
         "format": " {}",
-        "interval": 3,
+        "interval": 1,
         "exec": "/home/avhsm/.config/waybar/get_kbdlayout.sh"
     },
 

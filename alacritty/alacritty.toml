@@ -7,7 +7,7 @@ padding.y = 9
 
 [colors.primary]
 background = '#1d1f21' 
-foreground = '#ffffff'  
+foreground = '#c5c8c6'  
 dim_foreground = '#cccccc'
 bright_foreground = '#ffffff'
 
@@ -41,7 +41,7 @@ background = '#cccccc'
 
 [colors.selection]
 text = '#1d1f21'
-background = '#ffffff'
+background = '#c5c8c6'
 
 [colors.normal]
 black   = '#1d1f21' 
@@ -51,7 +51,7 @@ yellow  = '#ffaa00'
 blue    = '#cc7000'
 magenta = '#cc7000'
 cyan    = '#ff8800'
-white   = '#ffffff'
+white   = '#c5c8c6'
 
 [colors.bright]
 black   = '#2a2c2f'
@@ -61,7 +61,7 @@ yellow  = '#ffbb33'
 blue    = '#ffaa00'
 magenta = '#ffaa00'
 cyan    = '#ff8800'
-white   = '#ffffff'
+white   = '#c5c8c6'
 
 [colors.dim]
 black   = '#1a1b1d'
@@ -71,4 +71,4 @@ yellow  = '#cc8800'
 blue    = '#994c00'
 magenta = '#994c00'
 cyan    = '#cc7000'
-white   = '#cccccc'
+white   = '#c5c8c6'
