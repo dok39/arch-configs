@@ -3,8 +3,8 @@
     "layer": "bottom",
     "position": "bottom",
     "modules-left": ["custom/media", "pulseaudio"],
-    "modules-center": ["custom/textbox", "clock"],
-    "modules-right": ["custom/keyboard", "network", "battery"],
+    "modules-center": ["custom/textbox"],
+    "modules-right": ["clock", "custom/keyboard", "network", "battery"],
 
     /* LEFT */
     "custom/media": {
