@@ -1,74 +1,94 @@
-[window]
-decorations = "full"
-startup_mode = "Windowed"
+# Window Settings
 
-padding.x = 9
-padding.y = 9
+[font]
+normal = { family = "RobotoMono Nerd Font", style = "Regular" }
+bold = { family = "RobotoMono Nerd Font", style = "Bold" }
+italic = { family = "RobotoMono Nerd Font", style = "Italic" }
+bold_italic = { family = "RobotoMono Nerd Font", style = "Bold Italic" }
+size = 9
+
+[window]
+    padding.x =                         9
+    padding.y =                         9
+
+# Colours Settings 
 
 [colors.primary]
-background = '#1d1f21' 
-foreground = '#c5c8c6'  
-dim_foreground = '#cccccc'
-bright_foreground = '#ffffff'
-
-[colors.cursor]
-text = '#1d1f21'
-cursor = '#ffaa00'  
-
-[colors.vi_mode_cursor]
-text = '#1d1f21'
-cursor = '#ff8800'  
-
-[colors.search.matches]
-foreground = '#1d1f21'
-background = '#ff8800'
-
-[colors.search.focused_match]
-foreground = '#1d1f21'
-background = '#ffaa00'
-
-[colors.footer_bar]
-foreground = '#1d1f21'
-background = '#cc7000'
-
-[colors.hints.start]
-foreground = '#1d1f21'
-background = '#ffaa00'
-
-[colors.hints.end]
-foreground = '#1d1f21'
-background = '#cccccc'
-
-[colors.selection]
-text = '#1d1f21'
-background = '#c5c8c6'
+    background =                        '#f8fbf8'
+    foreground =                        '#333333'
+    dim_foreground =                    '#696969'
+    bright_foreground =                 '#ffffff'
 
 [colors.normal]
-black   = '#1d1f21' 
-red     = '#cc7000' 
-green   = '#cc7000'
-yellow  = '#ffaa00' 
-blue    = '#cc7000'
-magenta = '#cc7000'
-cyan    = '#ff8800'
-white   = '#c5c8c6'
+    black   =                           '#333333' 
+    red     =                           '#cd0000' 
+    green   =                           '#0fb300'
+    yellow  =                           '#ffa500'
+    blue    =                           '#0000ff'
+    magenta =                           '#ba36a5'
+    cyan    =                           '#21bdff'
+    white   =                           '#a9a9a9'
 
 [colors.bright]
-black   = '#2a2c2f'
-red     = '#ffaa00'
-green   = '#ffaa00'
-yellow  = '#ffbb33'
-blue    = '#ffaa00'
-magenta = '#ffaa00'
-cyan    = '#ff8800'
-white   = '#c5c8c6'
+    black   =                           '#333333'
+    red     =                           '#ffe6e4'
+    green   =                           '#ccffcc'
+    yellow  =                           '#fff68f'
+    blue    =                           '#e5f4fb'
+    magenta =                           '#ffe4ff'
+    cyan    =                           '#e0ffff'
+    white   =                           '#686868'
 
 [colors.dim]
-black   = '#1a1b1d'
-red     = '#994c00'
-green   = '#994c00'
-yellow  = '#cc8800'
-blue    = '#994c00'
-magenta = '#994c00'
-cyan    = '#cc7000'
-white   = '#c5c8c6'
+    black   =                           '#f8fbf8'
+    red     =                           '#cd0000'
+    green   =                           '#0fb300'
+    yellow  =                           '#ffa500'
+    blue    =                           '#0000ff'
+    magenta =                           '#ba36a5'
+    cyan    =                           '#21bdff'
+    white   =                           '#686868'
+
+
+
+# Miscellaneous
+
+[colors.search.matches]
+    foreground =                        '#000000'
+    background =                        '#fef69f'
+
+[colors.search.focused_match]
+    foreground =                        '#000000'
+    background =                        '#ffa500'
+
+
+
+[colors.hints.start]
+    foreground =                        '#85ceeb'
+    background =                        '#fef69f'
+
+[colors.hints.end]
+    foreground =                        '#000000'
+    background =                        '#a9a9a9'
+
+
+
+[colors.footer_bar]
+    foreground =                        '#000000'
+    background =                        '#21bdff'
+
+
+
+[colors.selection]
+    text =                              '#000000'
+    background =                        '#8ed3ff'
+
+
+
+[colors.cursor]
+    text =                              '#ffffff'
+    cursor =                            '#ffb6b6'  
+
+[colors.vi_mode_cursor]
+    text =                              '#ffffff'
+    cursor =                            '#ba36a5' 
