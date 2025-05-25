@@ -2,7 +2,7 @@
 @import	 "/home/avhsm/.config/rofi/colourPalette.rasi"
 
 configuration {
-	modi: "";
+    font: "JetBrainsMono Nerd Font 12";
 }
 
 * {
@@ -38,60 +38,30 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:                       600px;
+    width:                       300px;
     x-offset:                    0px;
     y-offset:                    0px;
+    background-color: @background-colour;
+    border-radius: 12px;
+        border: 2px solid;
+    border-color: @border-colour;
 
-    /* properties for all widgets */
-    enabled:                     true;
-    margin:                      0px;
-    padding:                     0px;
-    border:                      2px solid;
-    border-radius:               8px;
-    border-color:                @border-colour;
-    cursor:                      "default";
-    background-color:            @background-colour;
-}
-
-/*****----- Main Box -----*****/
-mainbox {
-    enabled:                     true;
-    spacing:                     10px;
-    margin:                      0px;
-    padding:                     10px;
-    border:                      0px solid;
-    border-radius:               0px 0px 0px 0px;
-    border-color:                @border-colour;
-    background-color:            transparent;
-    children:                    [ "inputbar", "message", "listview", "mode-switcher" ];
 }
 
 /*****----- Inputbar -----*****/
 inputbar {
     enabled:                     true;
     spacing:                     10px;
-    margin:                      0px;
+    margin:                      5px;
     padding:                     10px;
     border:                      0px 0px 1px 0px;
     border-radius:               0px;
-    border-color:                @border-colour;
-    background-color:            @alternate-background;
+    border-color:                @alternate-background;
+    background-color:            @background;
     text-color:                  @foreground-colour;
-    children:                    [ "prompt", "entry" ];
+    children:                    [ "entry" ];
 }
 
-prompt {
-    enabled:                     true;
-    background-color:            inherit;
-    text-color:                  inherit;
-}
-textbox-prompt-colon {
-    enabled:                     true;
-    expand:                      false;
-    str:                         "::";
-    background-color:            inherit;
-    text-color:                  inherit;
-}
 entry {
     enabled:                     true;
     background-color:            inherit;
@@ -99,6 +69,14 @@ entry {
     cursor:                      text;
     placeholder:                 "";
     placeholder-color:           inherit;
+}
+
+prompt {
+    enabled: true;
+    text: "🔍";
+    background-color: inherit;
+    text-color: inherit;
+    padding: 0px 5px 0px 0px;
 }
 
 /*****----- Listview -----*****/
@@ -118,18 +96,13 @@ listview {
     margin:                      0px;
     padding:                     0px;
     border:                      0px solid;
-    border-radius:               0px;
+    border-radius:               12px;
     border-color:                @border-colour;
-    background-color:            transparent;
+    background-color:            @background-colour;
     text-color:                  @foreground-colour;
     cursor:                      "default";
 }
-scrollbar {
-    handle-width:                5px ;
-    handle-color:                @handle-colour;
-    border-radius:               0px;
-    background-color:            @alternate-background;
-}
+
 
 /*****----- Elements -----*****/
 element {
@@ -157,7 +130,7 @@ element normal.active {
     text-color:                  var(active-foreground);
 }
 element selected.normal {
-    background-color:            var(selected-normal-background);
+    background-color:            var(normal-background);
     text-color:                  var(selected-normal-foreground);
 }
 element selected.urgent {
@@ -194,54 +167,3 @@ element-text {
     vertical-align:              0.5;
     horizontal-align:            0.0;
 }
-
-button {
-    padding:                     10px;
-    border:                      0px solid;
-    border-radius:               4px;
-    border-color:                @border-colour;
-    background-color:            @alternate-background;
-    text-color:                  inherit;
-    cursor:                      pointer;
-}
-
-button selected {
-    background-color:            var(selected-normal-background);
-    text-color:                  var(selected-normal-foreground);
-}
-
-message {
-    enabled:                     true;
-    margin:                      0px;
-    padding:                     0px;
-    border:                      0px solid;
-    border-radius:               0px 0px 0px 0px;
-    border-color:                @border-colour;
-    background-color:            transparent;
-    text-color:                  @foreground-colour;
-}
-textbox {
-    padding:                     10px;
-    border:                      0px solid;
-    border-radius:               0px;
-    border-color:                @border-colour;
-    background-color:            @alternate-background;
-    text-color:                  @foreground-colour;
-    vertical-align:              0.5;
-    horizontal-align:            0.0;
-    highlight:                   none;
-    placeholder-color:           @foreground-colour;
-    blink:                       true;
-    markup:                      true;
-}
-error-message {
-    padding:                     10px;
-    border:                      0px solid;
-    border-radius:               0px;
-    border-color:                @border-colour;
-    background-color:            @background-colour;
-    text-color:                  @foreground-colour;
-}
-
-
-//@theme "/usr/share/rofi/themes/glue_pro_blue.rasi"

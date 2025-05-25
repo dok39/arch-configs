@@ -1,0 +1,17 @@
+* {
+  /* Backgrounds */
+  background:     #1e1e2e;  
+  background-alt: #313244;  
+
+  /* Foreground */
+  foreground:     #cdd6f4; 
+
+  /* Selection and active states */
+  selected:       #94e2d5;
+  selected-fg:    #a6e3a1;   
+  active:         #94e2d5;   
+  urgent:         #fe640b;   
+
+  /* Border */
+  border-color:   #94e2d5;  
+}
