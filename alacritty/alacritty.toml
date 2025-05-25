@@ -2,7 +2,7 @@
 
 [font]
     normal =                                { family = "JetBrainsMono Nerd Font", style = "Regular" }
-    size = 10
+    size = 13
 
 [window]
     padding.x =                             12
