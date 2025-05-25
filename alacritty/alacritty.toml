@@ -11,75 +11,69 @@
 # Colours Settings 
 
 [colors.primary]
-    background =                            '#1F1F1F'
-    foreground =                            '#E6E6E9'
-    dim_foreground =                        '#E6E6E9'
-    bright_foreground =                     '#E6E6E9'
+    background =                            '#1e1e2e'
+    foreground =                            '#cdd6f4'
+    dim_foreground =                        '#7f849c'
+    bright_foreground =                     '#cdd6f4'
 
 [colors.normal]
-    black   =                               '#141414'
-    red     =                               '#8BAAAD'
-    green   =                               '#E6E6E9'
-    yellow  =                               '#F9E2AF'
-    blue    =                               '#9999A1'
-    magenta =                               '#E6E6E9'
-    cyan    =                               '#F4F4F6'
-    white   =                               '#F2F8F8' 
+    black   =                               '#45475a'
+    red     =                               '#f38ba8'
+    green   =                               '#a6e3a1'
+    yellow  =                               '#f9e2af'
+    blue    =                               '#89b4fa'
+    magenta =                               '#f5c2e7'
+    cyan    =                               '#94e2d5'
+    white   =                               '#bac2de' 
 
 [colors.bright]
-    black   =                               '#9999A1'
-    red     =                               '#8BAAAD'
-    green   =                               '#E6E6E9'
-    yellow  =                               '#F9E2AF'
-    blue    =                               '#9999A1'
-    magenta =                               '#E6E6E9'
-    cyan    =                               '#F4F4F6'
-    white   =                               '#F2F8F8' 
-
-[colors.dim]
-    black   =                               '#45475A'
-    red     =                               '#8BAAAD'
-    green   =                               '#E6E6E9'
-    yellow  =                               '#F9E2AF'
-    blue    =                               '#9999A1'
-    magenta =                               '#E6E6E9'
-    cyan    =                               '#F4F4F6'
-    white   =                               '#F2F8F8'
-
+    black   =                               '#585b70'
+    red     =                               '#f38ba8'
+    green   =                               '#a6e3a1'
+    yellow  =                               '#f9e2af'
+    blue    =                               '#89b4fa'
+    magenta =                               '#f5c2e7'
+    cyan    =                               '#94e2d5'
+    white   =                               '#a6adc8' 
 
 # Miscellaneous
 
 [colors.search.matches]
-    foreground =                            '#A6ADC8'
-    background =                            '#1E1E2E'
+    foreground =                            '#1e1e2e'
+    background =                            '#a6adc8'
 
 [colors.search.focused_match]
-    foreground =                            '#A6E3A1'
-    background =                            '#1E1E2E'
+    foreground =                            '#1e1e2e'
+    background =                            '#a6e3a1'
 
 [colors.hints.start]
-    foreground =                            '#F9E2AF'
-    background =                            '#1E1E2E'
+    foreground =                            '#1e1e2e'
+    background =                            '#f9e2af'
 
 [colors.hints.end]
-    foreground =                            '#A6ADC8'
-    background =                            '#1E1E2E'
+    foreground =                            '#1e1e2e'
+    background =                            '#a6adc8'
 
 [colors.cursor]
-    text =                                  '#F5E0DC'
-    cursor =                                '#FFFFFF'  
+    text =                                  '#1e1e2e'
+    cursor =                                '#f5e0dc'  
 
 [colors.vi_mode_cursor]
-    text =                                  '#B4BEFE'
-    cursor =                                '#1E1E2E' 
+    text =                                  '#1e1e2e'
+    cursor =                                '#b4befe' 
 
 [colors.footer_bar]
-    foreground =                            '#000000'
-    background =                            '#21bdff'
+    foreground =                            '#1e1e2e'
+    background =                            '#a6adc8'
 
 [colors.selection]
-    text =                                  '#000000'
-    background =                            '#FFFFFF'
+    text =                                  '#1e1e2e'
+    background =                            '#f5e0dc'
 
+[[colors.indexed_colors]]
+    index =                                 16
+    color =                                 "#fab387"
 
-
+[[colors.indexed_colors]]
+    index =                                 17
+    color =                                 "#f5e0dc"
