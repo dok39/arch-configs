@@ -12,9 +12,9 @@
 
 [colors.primary]
     background =                            '#1e1e2e'
-    foreground =                            '#a6e3a1'
+    foreground =                            '#bac2de'
     dim_foreground =                        '#7f849c'
-    bright_foreground =                     '#a6e3a1'
+    bright_foreground =                     '#bac2de'
 
 [colors.normal]
     black   =                               '#45475a'
