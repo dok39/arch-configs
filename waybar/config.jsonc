@@ -35,8 +35,8 @@
     
     "custom/wallpaper": {
         "format": " {}",
-        "exec": "echo 'wallpaper.jpg'",
-        "interval": 20,
+        "exec": "/home/avhsm/.config/waybar/swh_wallpaper.sh",
+        "interval": 3600,
         "on-click": "/home/avhsm/.config/waybar/swh_wallpaper.sh"
     },
     

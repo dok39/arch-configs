@@ -15,7 +15,7 @@ fi
     [ ! -f "$INDEX_FILE" ] && echo 0 > "$INDEX_FILE"
 
     INDEX=$(<"$INDEX_FILE")
-if [[ ! "$INDEX" =~ ^[0-9]+$ ]] then 
+if [[ ! "$INDEX" =~ ^[0-9]+$ ]]; then 
     INDEX=0
 fi
 
@@ -24,3 +24,5 @@ fi
     swww img "$WALLPAPER"
 
     echo $(( (INDEX + 1) % TOTAL )) > "$INDEX_FILE"
+
+    echo "$((INDEX + 1))/$TOTAL"
