@@ -3,8 +3,8 @@
     "layer": "bottom",
     "position": "bottom",
     "modules-left": ["custom/media", "pulseaudio"],
-    "modules-center": ["custom/textbox"],
-    "modules-right": ["clock", "custom/keyboard", "network", "battery"],
+    "modules-center": ["custom/wallpaper", "clock"],
+    "modules-right": ["custom/keyboard", "network", "battery"],
 
     /* LEFT */
     "custom/media": {
@@ -31,14 +31,15 @@
         "on-click": "pavucontrol"
     },
 
-    /* CENTER 
+    /* CENTER */
     
-        "custom/textbox": {
-        "format": "ы"
+    "custom/wallpaper": {
+        "format": " {}",
+        "exec": "echo 'wallpaper.jpg'",
+        "interval": 20,
+        "on-click": "/home/avhsm/.config/waybar/swh_wallpaper.sh"
     },
     
-    */
-
     "clock": {
         "format": " {:%H:%M}",
         "format-alt": "{:%a %b %d}",
