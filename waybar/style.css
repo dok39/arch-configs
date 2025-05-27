@@ -1,5 +1,5 @@
 * {
-  font-family: "JetBrainsMono Nerd Font", monospace;
+  font-family: "VictorMono Nerd Font", monospace;
   font-size: 13px;
   font-weight: 600;
   border: none;
@@ -23,16 +23,9 @@ window#waybar {
   padding: 4px 8px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  background: #1e1e2e;
-}
-
-#pulseaudio {
-  margin: 3px 3px 3px 0;
-  padding: 4px 6px 4px 4px;
-  background: #1e1e2e;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  color: #bac2de;
+  background: #1e1e2e;
 }
 
 /* CENTER */
@@ -49,6 +42,13 @@ window#waybar {
 #clock {
   margin: 3px 0;
   padding: 4px 8px;
+  background: #1e1e2e;
+  color: #bac2de;
+}
+
+#pulseaudio {
+  margin: 3px 3px 3px 0;
+  padding: 4px 6px 4px 4px;
   background: #1e1e2e;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;

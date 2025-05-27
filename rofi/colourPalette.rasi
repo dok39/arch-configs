@@ -6,9 +6,9 @@
   /* Foreground */
   foreground:     #cdd6f4; 
 
-  /* Selection and active states */
+  /* Selection */
   selected:       #cdd6f4;
-  selected-fg:    #a6e3a1;   
+  selected-fg:    #f5e0dc;   
   active:         #94e2d5;   
   urgent:         #fe640b;   
 

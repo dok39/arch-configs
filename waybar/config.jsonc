@@ -1,79 +1,79 @@
 {
-    "output": "HDMI-A-1",
-    "layer": "bottom",
-    "position": "bottom",
-    "modules-left": ["custom/media", "pulseaudio"],
-    "modules-center": ["custom/wallpaper", "clock"],
-    "modules-right": ["custom/keyboard", "network", "battery"],
+    "output":                               "HDMI-A-1",
+    "layer":                                "bottom",
+    "position":                             "bottom",
+    "modules-left":                         ["custom/media"],
+    "modules-center":                       ["custom/wallpaper", "clock", "pulseaudio"],
+    "modules-right":                        ["custom/keyboard", "network", "battery"],
 
     /* LEFT */
     "custom/media": {
-        "format": "{}",
-        "interval": 1,
-        "exec": "/home/avhsm/.config/waybar/get_media.sh",
-        "max-length": 65
+        "format":                           "{}",
+        "interval":                         1,
+        "exec":                             "/home/avhsm/.config/waybar/get_media.sh",
+        "max-length":                       65
     },
     
     "pulseaudio": {
-        "format": "{icon} {volume}%",
-        "format-bluetooth": "{icon} {volume}%",
-        "format-muted": "",
+        "format":                           "{icon}  {volume}%",
+        "format-bluetooth":                 "{icon}  {volume}%",
+        "format-muted":                     "",
         "format-icons": {
-            "headphone": "",
-            "hands-free": "",
-            "headset": "",
-            "phone": "",
-            "portable": "",
-            "car": "",
-            "default": ["", ""]
+            "headphone":                    "",
+            "hands-free":                   "",
+            "headset":                      "",
+            "phone":                        "",
+            "portable":                     "",
+            "car":                          "",
+            "default":                      ["", ""]
         },
-        "scroll-step": 1,
-        "on-click": "pavucontrol"
+        "scroll-step":                      1,
+        "on-click":                         "pavucontrol"
     },
 
     /* CENTER */
     
     "custom/wallpaper": {
-        "format": " {}",
-        "exec": "/home/avhsm/.config/waybar/swh_wallpaper.sh",
-        "interval": 3600,
-        "on-click": "/home/avhsm/.config/waybar/swh_wallpaper.sh"
+        "format":                           "  {}",
+        "exec":                             "/home/avhsm/.config/waybar/swh_wallpaper.sh",
+        "interval":                         3600,
+        "on-click":                         "/home/avhsm/.config/waybar/swh_wallpaper.sh"
     },
     
     "clock": {
-        "format": " {:%H:%M}",
-        "format-alt": "{:%a %b %d}",
-        "tooltip": false
+        "format":                           "  {:%H:%M}",
+        "format-alt":                       "  {:%a %b %d}",
+        "tooltip":                          false
     },
 
     /* RIGHT */
     "custom/keyboard": {
-        "format": " {}",
-        "interval": 1,
-        "exec": "/home/avhsm/.config/waybar/get_kbdlayout.sh"
+        "format":                           "  {}",
+        "interval":                         1,
+        "exec":                             "/home/avhsm/.config/waybar/get_kbdlayout.sh"
     },
 
     "network": {
-        "format": "{ifname}",
-        "format-wifi": " {essid}",
-        "format-ethernet": " {ifname}",
-        "format-disconnected": "",
-        "tooltip-format-wifi": "{signalStrength}%",
-        "max-length": 20
+        "format":                           "{ifname}",
+        "format-wifi":                      "  {essid}",
+        "format-ethernet":                  "  {ifname}",
+        "format-disconnected":              "",
+        "tooltip-format-wifi":              "{signalStrength}%",
+        "max-length":                       20
     },
 
     "battery": {
         "states": {
-        "good": 95,
-        "warning": 50,
-        "critical": 25
+        "good":                             95,
+        "warning":                          50,
+        "critical":                         25
     },
-        "bat":"BAT1",
-        "format": "{icon} {capacity}%",
-        "format-charging": " {capacity}%",
-        "format-plugged": " {capacity}%",
-        "format-discharging": " {capacity}%",
-        "format-alt": "{icon} {time}",
-        "format-icons": ["", "", "", "", ""]
+        "bat":                              "BAT1",
+        "format":                           "{icon} {capacity}%",
+        "format-charging":                  " {capacity}%",
+        "format-plugged":                   " {capacity}%",
+        "format-discharging":               " {capacity}%",
+        "format-alt":                       "{icon} {time}",
+        "format-icons":                     ["", "", "", "", ""]
     }
 }
