@@ -1,8 +1,22 @@
 # Window Settings
 
+[font.normal]
+    family =                                "VictorMono Nerd Font"
+    style =                                 "Bold" 
+
+[font.bold]
+    family =                                "JetBrainsMono Nerd Font"
+    style =                                 "Bold"
+
 [font]
-    normal =                                { family = "JetBrainsMono Nerd Font", style = "Regular" }
-    size = 13
+    size =                                  10
+
+[scrolling]
+    history =                               5000
+    multiplier =                            5
+
+[cursor]
+    style = "block"
 
 [window]
     padding.x =                             12
