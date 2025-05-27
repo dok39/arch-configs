@@ -6,12 +6,12 @@
   text-shadow: none;
   box-shadow: none;
   border-radius: 0;
-  color: #cdd6f4;
+  color: #a6e3a1;
 }
 
 window#waybar {
   background-color: transparent;
-  color: #cdd6f4;
+  color: #a6e3a1;
   padding: 0 5px;
   transition: background-color 0.5s;
 }

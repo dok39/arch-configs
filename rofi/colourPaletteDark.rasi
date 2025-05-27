@@ -2,9 +2,9 @@
   background:     #1F1F1F;
   background-alt: #333333;
   foreground:     #E6E6E9;
-  selected:       #333333;
-  selected-fg:    #8BAAAD;
-  active:         #e0ffff;
-  urgent:         #cd0000;
-  border-color:   #a9a9a9;
+  selected:       #E6E6E9;
+  selected-fg:    #E6E6E9;
+  active:         #E6E6E9;
+  urgent:         #E6E6E9;
+  border-color:   #E6E6E9;
 }

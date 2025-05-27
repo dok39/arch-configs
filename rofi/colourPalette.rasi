@@ -7,7 +7,7 @@
   foreground:     #cdd6f4; 
 
   /* Selection and active states */
-  selected:       #94e2d5;
+  selected:       #cdd6f4;
   selected-fg:    #a6e3a1;   
   active:         #94e2d5;   
   urgent:         #fe640b;   
